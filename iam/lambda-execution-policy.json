@@ -1,0 +1,21 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "CostExplorerRead",
+      "Effect": "Allow",
+      "Action": [
+        "ce:GetCostAndUsage"
+      ],
+      "Resource": "*"
+    },
+    {
+      "Sid": "SESSendRawEmail",
+      "Effect": "Allow",
+      "Action": [
+        "ses:SendRawEmail"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

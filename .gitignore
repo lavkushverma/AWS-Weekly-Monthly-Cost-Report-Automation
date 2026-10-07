@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+.venv/
+venv/
+env/
+
+# AWS / deployment artifacts
+*.zip
+.aws-sam/
+.sam/
+
+# Local test/output files
+response.json
+*.csv
+.env
+.env.*
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
